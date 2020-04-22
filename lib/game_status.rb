@@ -33,3 +33,7 @@ end
 }
 return false
 end
+
+def full?(board)
+  board.all? {|index| == "X" || index == "O"}
+end
